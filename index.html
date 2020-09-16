@@ -18,16 +18,30 @@
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
 
     <style>
-        .media:hover .media:hover {
-            padding-top: 100px;
+        .mediaLeft i {
+            transition: all .5s;
+        }
+
+        .mediaLeft:hover i {
+            padding-top: 10%;
+            color: cornflowerblue;
         }
 
         .carousel-caption {
-            bottom: 30%;
+            bottom: 33%;
         }
 
         .carousel-item img {
             height: 100%
+        }
+
+        .bone {
+            transition: all .3s;
+        }
+
+        .bone:hover {
+            transform: scale(1.05);
+            border: 1px solid slategrey;
         }
     </style>
 </head>
@@ -44,8 +58,8 @@
                 </button>
                 <div class="collapse navbar-collapse  justify-content-end" id="navbarNavDropdown">
                     <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#home">HOME <span class="sr-only">(current)</span></a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">HOME</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#features">FEATURES</a>
@@ -136,46 +150,43 @@
                             </p>
                         </div>
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-md-6 mediaLeft mb-5">
                                 <div class="media p-3">
-                                    <i class="fas fa-cogs pr-3 pt-0" style="font-size: 2rem;"></i>
+                                    <i class="fas fa-cogs pr-3" style="font-size: 2rem;"></i>
                                     <div class="media-body">
-                                        <h5 class="mt-0">INNOVATIVE SOLUTIONS</h5><br>
-
-                                        Our services and solutions are built on business innovations
+                                        <h5 class="mt-0 mb-3">INNOVATIVE SOLUTIONS</h5>
+                                        <p>Our services and solutions are built on business innovations</p>
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="col-md-6">
+                            <div class="col-md-6 mediaLeft mb-5">
                                 <div class="media p-3">
-                                    <i class="fas fa-cogs pr-3 pt-0" style="font-size: 2rem;"></i>
+                                    <i class="fas fa-cogs pr-3" style="font-size: 2rem;"></i>
                                     <div class="media-body">
-                                        <h5 class="mt-0">INNOVATIVE SOLUTIONS</h5><br>
-
-                                        Our services and solutions are built on business innovations
+                                        <h5 class="mt-0 mb-3">INNOVATIVE SOLUTIONS</h5>
+                                        <p>Our services and solutions are built on business innovations</p>
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="col-md-6">
+                            <div class="col-md-6 mediaLeft mb-5">
                                 <div class="media p-3">
-                                    <i class="fas fa-cogs pr-3 pt-0" style="font-size: 2rem;"></i>
+                                    <i class="fas fa-cogs pr-3" style="font-size: 2rem;"></i>
                                     <div class="media-body">
-                                        <h5 class="mt-0">INNOVATIVE SOLUTIONS</h5><br>
+                                        <h5 class="mt-0 mb-3">INNOVATIVE SOLUTIONS</h5>
 
-                                        Our services and solutions are built on business innovations
+                                        <p>Our services and solutions are built on business innovations</p>
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="col-md-6">
+                            <div class="col-md-6 mediaLeft mb-5">
                                 <div class="media p-3">
-                                    <i class="fas fa-cogs pr-3 pt-0" style="font-size: 2rem;"></i>
+                                    <i class="fas fa-cogs pr-3" style="font-size: 2rem;"></i>
                                     <div class="media-body">
-                                        <h5 class="mt-0">INNOVATIVE SOLUTIONS</h5><br>
-
-                                        Our services and solutions are built on business innovations
+                                        <h5 class="mt-0 mb-3">INNOVATIVE SOLUTIONS</h5>
+                                        <p>Our services and solutions are built on business innovations</p>
                                     </div>
                                 </div>
                             </div>
@@ -202,8 +213,8 @@
             </div>
             <div class="row mt-5">
                 <div class="col-md-4">
-                    <div class="card rounded-0 bg-dark p-5 text-white">
-                        <div class="card-body px-5 text-center">
+                    <div class="bone card rounded-0 bg-dark p-5 text-white mb-1">
+                        <div class="card-body  text-center">
                             <p>STARTER</p>
                             <p>Perfect for startups</p>
                             <hr>
@@ -216,8 +227,8 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card rounded-0 bg-primary p-5 text-white">
-                        <div class="card-body px-5 text-center">
+                    <div class="bone card rounded-0 bg-primary p-5 text-white mb-1">
+                        <div class="card-body text-center">
                             <p>STARTER</p>
                             <p>Perfect for startups</p>
                             <hr>
@@ -231,8 +242,8 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card rounded-0 bg-dark p-5 text-white">
-                        <div class="card-body px-5 text-center">
+                    <div class="bone card rounded-0 bg-dark p-5 text-white mb-1">
+                        <div class="card-body text-center">
                             <p>STARTER</p>
                             <p>Perfect for startups</p>
                             <hr>
@@ -260,7 +271,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md-3">
-                        <div class="card rounded-0 text-white" style="background-color: rgb(0,0,0,.4);">
+                        <div class="bone card rounded-0 text-white" style="background-color: rgb(0,0,0,.5);">
                             <img src="http://zozothemes.com/html/mist/light/img/sections/team-1.jpg"
                                 class="card-img rounded-0" alt="">
                             <div class="card-body text-center">
@@ -288,7 +299,7 @@
                         </div>
                     </div>
                     <div class="col-md-3">
-                        <div class="card rounded-0 text-white" style="background-color: rgb(0,0,0,.4);">
+                        <div class="bone card rounded-0 text-white" style="background-color: rgb(0,0,0,.4);">
                             <img src="http://zozothemes.com/html/mist/light/img/sections/team-2.jpg"
                                 class="card-img rounded-0" alt="">
                             <div class="card-body text-center">
@@ -316,7 +327,7 @@
                         </div>
                     </div>
                     <div class="col-md-3">
-                        <div class="card rounded-0 text-white" style="background-color: rgb(0,0,0,.4);">
+                        <div class="bone card rounded-0 text-white" style="background-color: rgb(0,0,0,.4);">
                             <img src="http://zozothemes.com/html/mist/light/img/sections/team-3.jpg"
                                 class="card-img rounded-0" alt="">
                             <div class="card-body text-center">
@@ -344,7 +355,7 @@
                         </div>
                     </div>
                     <div class="col-md-3">
-                        <div class="card rounded-0 text-white" style="background-color: rgb(0,0,0,.4);">
+                        <div class="bone card rounded-0 text-white" style="background-color: rgb(0,0,0,.4);">
                             <img src="http://zozothemes.com/html/mist/light/img/sections/team-4.jpg"
                                 class="card-img rounded-0" alt="">
                             <div class="card-body text-center">
